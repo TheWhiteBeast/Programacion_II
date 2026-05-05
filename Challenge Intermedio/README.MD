@@ -34,40 +34,51 @@ Challenge Intermedio/
 ├── requirements.txt                      # Project dependencies
 └── upload_results.py                     # Git automation script
 
-## Technologies
-Python 3.8+
-MLflow: Experiment tracking and MLOps.
-Scikit-Learn: Machine Learning algorithms and metrics.
-Pandas & NumPy: Data manipulation.
-Matplotlib: Statistical visualizations.
 
-📊 Key Results
-Model: Random Forest Classifier
+**---**
+```
+## 🛠️ Technologies
 
-Accuracy: ~96.4%
+* **Python 3.8+**
+* **MLflow**: Experiment tracking and MLOps.
+* **Scikit-Learn**: Machine Learning algorithms and metrics.
+* **Pandas & NumPy**: Data manipulation.
+* **Matplotlib**: Statistical visualizations.
 
-Precision: ~97.5%
+## 📊 Key Results
 
-MLOps Tracking: All runs are registered in the MLflow UI with full traceability.
+* **Model**: Random Forest Classifier
+* **Accuracy**: ~96.4%
+* **Precision**: ~97.5%
+* **MLOps Tracking**: All runs are registered in the MLflow UI with full traceability.
 
-💻 How to Use
-1. Setup Environment
+---
+
+## 💻 How to Use
+
+### 1. Setup Environment
 Install the required libraries:
+```*bash*
+# pip install -r requirements.txt
 
-Bash
-pip install -r requirements.txt
-2. Run MLflow UI
+```
+---
+`
+### 2. Run MLflow UI
 Start the tracking server in a separate terminal:
-
-Bash
+```*bash*
 mlflow ui
-3. Execute Pipeline
+```
+
+### 3. Execute Pipeline
 Run the main script to train, evaluate, and log the model:
-
-Bash
 python src/mlops_pipeline.py --data_path data/breast-cancer-wisconsin.data.csv
-4. Explore
-#Visit http://localhost:5000 to see the performance metrics, parameters, and saved plots (artifacts).
 
+### 4. Explore
+Visit http://localhost:5000 to see the performance metrics, parameters, and saved plots (artifacts).
+
+
+---
+``
 👤 Author
 André Fajardo Master's in Data Science - Programming II (26A) | GitHub Profile
