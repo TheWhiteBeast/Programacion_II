@@ -1,0 +1,21 @@
+# Core ML / AutoML
+pycaret[full]>=3.3.0
+
+# NLP
+spacy>=3.7.0,<3.8.0
+nltk
+
+# Topic modeling visualization
+pyLDAvis==3.4.1
+
+# Data handling
+pandas==2.1.4
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.7.5
+seaborn
+plotly
+
+# Model explainability dashboard
+explainerdashboard>=0.4.0
