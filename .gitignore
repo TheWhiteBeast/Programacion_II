@@ -11,6 +11,8 @@ test_vader_si_pudiera_pycaret_lr.ipynb
 # Ignorar carpetas completas (nota el "/" al final)
 Notebooks-Unidad I/
 Presentaciones -Unidad I/
+Unidad II/
+Unidad III/
 
 # Ignorar bases de datos y carpetas pesadas de MLOps locales
 mlartifacts/
