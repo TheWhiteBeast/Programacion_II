@@ -8,7 +8,7 @@ def upload_to_github():
         os.system("git add .")
         
         # Pedimos un mensaje de commit o usamos uno por defecto
-        message = "Resultados del challenge - Cancer Detection"
+        message = "Resultados Actualizados"
         os.system(f'git commit -m "{message}"')
         
         # Subimos a la rama principal (main o master)
