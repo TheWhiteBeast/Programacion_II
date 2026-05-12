@@ -23,7 +23,7 @@ def train_model():
 
     # Entrenar Random Forest
     print("Entrenando Random Forest Classifier...")
-    model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=42)
+    model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=42, class_weight='balanced')
     model.fit(X_train, y_train)
 
     y_pred = model.predict(X_test)
